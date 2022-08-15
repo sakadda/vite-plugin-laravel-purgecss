@@ -1,0 +1,34 @@
+{
+    "name": "vite-plugin-laravel-purgecss",
+    "version": "0.0.2",
+    "description": "Purges CSS for laravel-vite",
+    "main": "dist/index.js",
+    "author": "sakadda",
+    "license": "MIT",
+    "private": false,
+    "keywords": [
+        "vite",
+        "vite-plugin",
+        "purgecss"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sakadda/vite-plugin-laravel-purgecss"
+    },
+    "scripts": {
+        "build": "tsup src/index.ts --format esm,cjs --dts",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@types/node": "^16.10.8",
+        "tsup": "^5.4.0",
+        "typescript": "^4.4.4"
+    },
+    "peerDependencies": {
+        "vite": "^3.0.0"
+    },
+    "dependencies": {
+        "purgecss": "^4.1.1",
+        "vite": "^3.0.0"
+    }
+}
