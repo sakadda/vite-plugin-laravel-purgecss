@@ -1,6 +1,6 @@
 {
   "name": "@sakadda/vite-plugin-laravel-purgecss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Purges CSS for laravel-vite",
   "main": "dist/index.js",
   "author": "sakadda",
