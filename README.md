@@ -4,11 +4,11 @@ This [Vite](https://github.com/vitejs/vite) plugin purges CSS based on Blade tem
 ## Install
 **Yarn**
 ```
-yarn add vite-plugin-laravel-purgecss -D
+yarn add @sakadda/vite-plugin-laravel-purgecss -D
 ```
 or **npm**
 ```
-npm i vite-plugin-laravel-purgecss --save-dev
+npm i @sakadda/vite-plugin-laravel-purgecss --save-dev
 ```
 
 ## Usage
