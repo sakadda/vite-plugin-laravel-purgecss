@@ -15,7 +15,7 @@ npm i @sakadda/vite-plugin-laravel-purgecss --save-dev
 ### Configuration
 Use plugin in your Vite config (`vite.config.ts`)
 ```
-import purge from 'vite-plugin-laravel-purgecss'
+import purge from '@sakadda/vite-plugin-laravel-purgecss'
 
 export default {
     plugins: [
